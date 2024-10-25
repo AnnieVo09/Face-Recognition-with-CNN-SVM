@@ -1,17 +1,53 @@
-# Face-Recognition-with-CNN-SVM
+# Project Title: Fac Recognition Usisng Deep Learning and Machine Learning Model 
 
-This project uses a convolutional neural network (CNN) built in Keras to perform facial recognition on the Labeled Faces in the Wild (LFW) dataset from scikit-learn. The goal is to accurately identify different celebrities based on photographs of their faces.
+## Overview:
+This project focuses on comparing Convolutional Neural Network (CNN) and Support Vector Machine (SVM) models in terms of performance on a dataset. The steps include data preprocessing, model building, fine-tuning, and evaluation on both validation and test sets.
 
-## Contents
+## Table of Contents:
+1. **Problem Definition and Proposed Solution**
+2. **Data Preprocessing**
+    - Reshaping Data
+    - Converting to One-Hot Encoding
+    - Normalizing Input
+    - Data Augmentation
+3. **Modeling**
+    - **CNN:**
+        - Build Baseline Model
+        - Fine-tune Model
+    - **SVM:**
+        - Build Base Model
+        - Model Tuning
+4. **Model Evaluation**
+    - Validation Test
+    - Test Set Evaluation
+5. **Conclusion**
 
-The Jupyter notebook:
+## Dependencies:
+- Python 3.x
+- TensorFlow
+- scikit-learn
+- NumPy
+- Pandas
 
-- Imports the LFW dataset
-- Splits data into train and test sets 
-- Defines CNN architecture with convolution, pooling, dropout and dense layers
-- Compiles and trains model
-- Makes predictions on test set
-- Evaluates model accuracy 
-- Visualizes some predictions
+## Instructions:
+1. **Problem Definition and Proposed Solution**: This section describes the objective of the project, which is to apply machine learning techniques for model comparison and to propose the best performing solution.
+   
+2. **Import Library and Dataset**: Import necessary libraries and load the dataset for the analysis.
 
-It also shows the full CNN architecture visualization produced by VisualKeras.
+3. **Data Preprocessing**: 
+   - Reshape the data for model input.
+   - Convert categorical labels into one-hot encoding format.
+   - Normalize the input data for better model performance.
+   - Apply data augmentation techniques to increase the dataset's variability and prevent overfitting.
+
+4. **Modeling**:
+   - **CNN**: Build and fine-tune the Convolutional Neural Network model.
+   - **SVM**: Build and tune the Support Vector Machine model for comparison.
+
+5. **Model Evaluation**: Evaluate both models on the validation and test sets to determine their effectiveness.
+
+6. **Conclusion**: Summarize the results, indicating which model performed better based on accuracy and loss metrics.
+
+---
+
+This template can be modified depending on any further project-specific details or updates. Let me know if you'd like more changes!
