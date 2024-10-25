@@ -48,6 +48,3 @@ This project focuses on comparing Convolutional Neural Network (CNN) and Support
 
 6. **Conclusion**: Summarize the results, indicating which model performed better based on accuracy and loss metrics.
 
----
-
-This template can be modified depending on any further project-specific details or updates. Let me know if you'd like more changes!
